@@ -86,7 +86,6 @@ const LoginForm = () => {
           startAdornment={userIcon}
           required
           minLength={3}
-          maxLength={20}
           value={user}
           onChange={(e) => setUser(e.target.value)}
         />
